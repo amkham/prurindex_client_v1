@@ -29,7 +29,7 @@ export default {
       authorization: false
     }
   },
-
+////
   mounted() {
     let token = jwt_decode(localStorage.getItem('token'));
     let r_token = jwt_decode(localStorage.getItem('r-token'));
